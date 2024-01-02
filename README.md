@@ -7,10 +7,10 @@ Instructions for the python classifiers:
  - the src/pipline.py module is meant to be used in a jupyter notebook, as in the example classifiers.ipynb
 
 Project organization:
-    data - raw data tables in .csv format
-    src - classification pipeline source code
-    test - pytest tests
-    *.R - R files with code to calculate rich factor and network properties
-    classifiers.ipynb - jupyter notebook with examples replicating the results form the article
-    README.md - this readme file
-    requirements.txt - required python packages
+  - data - raw data tables in .csv format
+  - src - classification pipeline source code
+  - test - pytest tests
+  - *.R - R files with code to calculate rich factor and network properties
+  - classifiers.ipynb - jupyter notebook with examples replicating the results form the article
+  - README.md - this readme file
+  - requirements.txt - required python packages
