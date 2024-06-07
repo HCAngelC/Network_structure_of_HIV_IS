@@ -33,7 +33,7 @@ vertex_degree_rc <- function(df) {
   outer_vertex.c <- dplyr::anti_join(df_list_column, df_column.agg, by = "column") %>% dplyr::mutate(count_c = 0)
   df_tous.c <- dplyr::bind_rows(df_column.agg, outer_vertex.c) %>% dplyr::arrange(column) %>% dplyr::mutate(ID = c(1:309))
   
-  df_tous <- dplyr::bind_cols(df_tous.r, df_tous.c, by = "ID") %>% dplyr::select(row, count_r, column, count_c, ID...3) %>% dplyr::mutate(count_mean = (count_r + count_c)/2) %>% dplyr::rename(ID = ID...3)
+  df_tous <- dplyr::bind_cols(df_tous.r, df_tous.c, by = "ID") %>% dplyr::select(row, count_r, column, count_c, ID...3) %>% dplyr::mutate(count_sum = (count_r + count_c)) %>% dplyr::rename(ID = ID...3)
   
   return(df_tous)
 }
