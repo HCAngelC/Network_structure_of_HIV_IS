@@ -14,3 +14,6 @@ Project organization:
   - classifiers.ipynb - jupyter notebook with examples replicating the results form the article
   - README.md - this readme file
   - requirements.txt - required python packages
+
+To cite our work:
+Wiśniewski J, Więcek K, Ali H, Pyrc K, Kula-Păcurar A, Wagner M, Chen HC. Distinguishable topology of the task-evoked functional genome networks in HIV-1 reservoirs. iScience. 2024 Oct 21;27(11):111222. doi: 10.1016/j.isci.2024.111222. PMID: 39559761; PMCID: PMC11570469.
