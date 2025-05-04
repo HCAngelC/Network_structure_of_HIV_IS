@@ -5,7 +5,7 @@ rm(list=ls())
 # Date: 2023.10.09
 ##############################################################
 # Input: Readout file from MSigDb over-representation analysis
-# Object: Breakdown individual genes in the readout filr from MSigDb over-representation analysis
+# Object: Breakdown individual genes in the readout file from MSigDb over-representation analysis
 ##############################################################
 # R packages
 
